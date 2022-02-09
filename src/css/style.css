@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.table-container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.datatable {
+  min-width: 400px;
+  border: 1px darkgray solid;
+  border-spacing: 1px;
+
+}
+.data-table-header {
+
+}
+
+.datatable-header-cell {
+  height: 40px;
+  background-color: lightblue;
+}
+
+
+.datatable-header-cell,
+.datatable-body-cell{
+  min-width: 100px;
+  padding: 2px 7px;
+}
+
+.sorted-straight-cell::after {
+  content: "\2193";
+  padding-left: 5px;
+}
+
+.sorted-reverse-cell::after {
+  content: "\2191";
+  padding-left: 5px;
+}
